@@ -9,7 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
-  .container {
+.container {
     padding: 80px 120px;
   }
   .person {
@@ -71,8 +71,18 @@
     background-color: #fff;
     color: #000;
   }
+  .modal-header, h4, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-header, .modal-body {
+    padding: 40px 50px;
+  }
   </style>
 </head>
+
 <body>
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -181,30 +191,67 @@
 <div class="row text-center">
   <div class="col-sm-4">
     <div class="thumbnail">
-      <img src="assets/images/yogacart.jpg" alt="yoga cartoon" width="400" height="300">
+      <img src="assets/images/yogacart.jpg" class="thumb" alt="Paris" >
       <p><strong>London</strong></p>
       <p>Monday 11 August 2025</p>
-      <button class="btn">Buy Lessons</button>
+      <button class="btn" data-toggle="modal" data-target="#myModal">Buy Lessons</button>
     </div>
   </div>
   <div class="col-sm-4">
     <div class="thumbnail">
-      <img src="assets/images/yogacart.jpg" alt="yoga cartoon" width="400" height="300">
+      <img src="assets/images/yogacart.jpg" class="thumb" alt="New York">
       <p><strong>Birmingham</strong></p>
       <p>Thursday 11 September 2025</p>
-      <button class="btn">Buy Lessons</button>
+      <button class="btn" data-toggle="modal" data-target="#myModal">Buy Lessons</button>
     </div>
   </div>
   <div class="col-sm-4">
     <div class="thumbnail">
-      <img src="assets/images/yogacart.jpg" alt="yoga cartoon" width="400" height="300">
+      <img src="assets/images/yogacart.jpg" alt="San Francisco" class="thumb">
       <p><strong>Bristol</strong></p>
       <p>Wednesday 12 November 2025</p>
-      <button class="btn">Buy Lessons</button>
+      <button class="btn" data-toggle="modal" data-target="#myModal">Buy Lessons</button>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+<div class="modal-dialog">
+
+  <!-- Modal content-->
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h4><span class="glyphicon glyphicon-lock"></span> Lessons</h4>
+    </div>
+    <div class="modal-body">
+      <form role="form" action="index.html">
+        <div class="form-group">
+          <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, 30£ each lesson</label>
+          <input type="number" class="form-control" id="psw" placeholder="How many?" required>
+        </div>
+        <div class="form-group">
+          <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+          <input type="email" class="form-control" id="usrname" placeholder="Enter email" required>
+        </div>
+          <button type="submit" class="btn btn-block">Pay 
+            <span class="glyphicon glyphicon-ok"></span>
+          </button>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+        <span class="glyphicon glyphicon-remove"></span> Cancel
+      </button>
+      <p>Need <a href="#">help?</a></p>
     </div>
   </div>
 </div>
 </div>
 </div>
+
+
 </body>
 </html>
