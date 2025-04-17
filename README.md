@@ -15,7 +15,6 @@ Table of Contents
 
     New Members
     Design
-    Deployment
     Features
     Testing
     Technologies Used
@@ -30,4 +29,31 @@ The website has been designed with a primary focus on new members. The website c
     -Class dates
     -Tickets for classes
     -Contact form
+     
+Design
+ The website has been created across 3 subpages, for clear and easy access of information. The pages haves been linked with a simple navigation menu, which adapts to different devices.
+ 
+<img width="935" alt="Home" src="https://github.com/user-attachments/assets/c39027ea-0d1e-4ec1-a812-c41ecbe3e72d" />
+<img width="847" alt="About 2" src="https://github.com/user-attachments/assets/c57be028-d22c-4703-b7ae-ab25f033093c" />
+<img width="620" alt="Benefits 3" src="https://github.com/user-attachments/assets/2d248d5e-0828-4780-9691-0be0c01c6b55" />
+<img width="730" alt="Class dates 4" src="https://github.com/user-attachments/assets/3df9995a-d327-4cce-bac8-625a1c8ed3d6" />
+<img width="595" alt="Lessons 5" src="https://github.com/user-attachments/assets/ec0aebf7-b858-4946-a9f2-ce3431ccedc1" />
+<img width="635" alt="Contact 6" src="https://github.com/user-attachments/assets/1dd59022-1439-4861-be5d-7e1c6aa879d6" />
+
+
+My Repository
+
+    Created a new public local repository on my Github account.
+
+    When writing my code using VScode, I ensured I committed my changes to my local repository in regular intervals, using clear messaging for any changes I had made.
+    
+        git add .
+        
+        git commit -m "message"
+
+        after making the commits, I would push   to  my remote repository using "git push"
+
+
+
+
 
