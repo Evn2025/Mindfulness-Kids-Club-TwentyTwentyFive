@@ -53,6 +53,31 @@ My Repository
 
         after making the commits, I would push   to  my remote repository using "git push"
 
+        
+Deployment
+
+Using Github to deploy my project.
+
+My Repository
+
+    Created a new public local repository on my Github account, and copied the repository to VScode to start building the website.
+
+        When writing my code using VScode, I ensured I committed my changes to my local repository in regular intervals, using clear messaging for any changes I had made.
+        git add .
+        git commit -m "This would be my message on what I had changed"
+
+    After making my regular commits, I would then push the commits to my remote repository by using the command 'git push'.
+
+Hosting
+
+    To host my website, I went to Github and selected my repository named Mindfulness-Kids-Club-TwentyTwentyFive .
+    I went to Settings > Pages
+    I made sure the following settings were applied:
+        Source: 'Deploy from a branch' on the dropdown menu
+        Branch: 'Main' and 'root' from the dropdown menus
+        Pressed save
+    This takes a few minutes to deploy, and will be found on the righthand-side of the repository dashboard page.
+
 
 
 
