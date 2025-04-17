@@ -1,6 +1,5 @@
 ﻿# Mindfulness-Kids-Club-TwentyTwentyFive
 
-
 Project 1 
 
 Mindfulness Kids Club
@@ -25,7 +24,9 @@ New Members
 The website has been designed with a primary focus on new members. The website clearly displays the following information in an easy to access format:
 
 
-    -The activities of classes’ Mindfulness Kids Club' has to offer
+
+    
+   -The activities of classes’ Mindfulness Kids Club' has to offer
     
    - Benefits of practicing Mindfulness
      
@@ -89,9 +90,11 @@ Languages
 
 HTML CSS 
 
-Technology
+
 
 Github and VScode
+
+
 
 Credits and Reference
 
