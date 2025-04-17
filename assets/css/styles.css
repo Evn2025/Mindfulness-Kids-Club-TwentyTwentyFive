@@ -2,3 +2,9 @@ body {
   font: 400 15px/1.8 Lato, sans-serif;
   color: #777777;
 }
+h3, h4 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 10px;      
+  font-size: 20px;
+  color: #111;
+}
