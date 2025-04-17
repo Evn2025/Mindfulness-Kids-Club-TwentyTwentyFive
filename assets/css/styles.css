@@ -29,3 +29,24 @@ h3, h4 {
 .img-responsive {
   width: 100%;
 }
+.person:hover {
+  border-color: #f1f1f1;
+}
+.carousel-inner img {
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%); /* make all photos black and white */ 
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+}
+.carousel-caption {
+  background-color: rgba(0,0,0, 0.7);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.carousel-caption h3 {
+  color: #ffffff !important;
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
