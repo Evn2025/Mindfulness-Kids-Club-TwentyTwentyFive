@@ -41,7 +41,7 @@ Design
 <img width="635" alt="Contact 6" src="https://github.com/user-attachments/assets/1dd59022-1439-4861-be5d-7e1c6aa879d6" />
 
 
-My Repository
+
 
     Created a new public local repository on my Github account.
 
@@ -58,7 +58,7 @@ Deployment
 
 Using Github to deploy my project.
 
-My Repository
+
 
     Created a new public local repository on my Github account, and copied the repository to VScode to start building the website.
 
@@ -77,6 +77,7 @@ Hosting
         Branch: 'Main' and 'root' from the dropdown menus
         Pressed save
     This takes a few minutes to deploy, and will be found on the righthand-side of the repository dashboard page.
+<img width="908" alt="Github Deployment" src="https://github.com/user-attachments/assets/1fc3bb0b-dc5d-4390-8064-4138cc07b9cf" />
 
 
 
