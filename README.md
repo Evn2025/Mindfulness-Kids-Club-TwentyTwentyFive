@@ -8,7 +8,7 @@ This project creates a simple, yet effective, website for the ‘ Mindfulness Ki
 
 About
 
-The’ Mindfulness Kids Club' is a club based in England. Created by three founders, who wanted to bring to life their love mindfulness.
+The 'Mindfulness Kids Club' is a club based in England. Created by three founders, who wanted to bring to life their love mindfulness.
 
 Table of Contents
 
@@ -24,17 +24,12 @@ New Members
 The website has been designed with a primary focus on new members. The website clearly displays the following information in an easy to access format:
 
 
-
-    
-   -The activities of classes’ Mindfulness Kids Club' has to offer
-    
-   - Benefits of practicing Mindfulness
-     
-    -Class dates
-    
-    -Tickets for classes
-    
-    -Contact form
+   
+    -The activities of classes’ Mindfulness Kids Club' has to offer
+    - Benefits of practicing Mindfulness
+     -Class dates
+     -Tickets for classes
+     -Contact form
      
 Design
  The website has been created across 3 subpages, for clear and easy access of information. The pages haves been linked with a simple navigation menu, which adapts to different devices.
