@@ -24,10 +24,15 @@ New Members
 
 The website has been designed with a primary focus on new members. The website clearly displays the following information in an easy to access format:
 
+
     -The activities of classes’ Mindfulness Kids Club' has to offer
+    
    - Benefits of practicing Mindfulness
+     
     -Class dates
+    
     -Tickets for classes
+    
     -Contact form
      
 Design
@@ -79,6 +84,23 @@ Hosting
     This takes a few minutes to deploy, and will be found on the righthand-side of the repository dashboard page.
 <img width="908" alt="Github Deployment" src="https://github.com/user-attachments/assets/1fc3bb0b-dc5d-4390-8064-4138cc07b9cf" />
 
+Technologies Used
+Languages
+
+HTML CSS 
+
+Technology
+
+Github and VScode
+
+Credits and Reference
+
+Throughout the website build I used the following sources:
+
+    Example code from Code Institute Love Running Project
+    W3Schools.com
+    Unsplash.com for images
+    
 
 
 
