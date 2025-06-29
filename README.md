@@ -1,5 +1,8 @@
 # Mindfulness Kids Club
 
+
+
+
 A fully responsive, accessible one-page landing site introducing children (ages 5–10) to playful mindfulness exercises. Built with Bootstrap 3.4, jQuery and custom CSS, it features:
 
 - A hero image carousel of three breathing and sensory activities  
@@ -196,6 +199,9 @@ Mindfulness Kids Club is a fictional site designed for parents, teachers and car
 ## Deployment
 
 ### GitHub Pages
+
+https://evn2025.github.io/Mindfulness-Kids-Club-TwentyTwentyFive/
+
 
 1. Push your `main` branch to GitHub  
 2. In **Settings > Pages**, select **main** branch and `/ (root)**  
