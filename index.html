@@ -1,275 +1,322 @@
- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 
-  <title>Mindfulness Kids Club</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <title>Mindfulness Kids Club</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    /* Contrast improvements */
+    .label-danger {
+      background-color: #c9302c; /* darker red */
+      color: #fff;
+    }
+    .navbar-default .navbar-nav > li > a,
+    .navbar-default .navbar-brand {
+      color: #222; /* darker text */
+    }
+  </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#myPage"> </a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage">HOME</a></li>
-        <li><a href="#About">ABOUT</a></li>
-        <li><a href="#Lessons">LESSONS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-        
-          
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            
-            
 
-          </ul>
-        </li>
-        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
-      </ul>
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Navbar Header -->
+      <div class="navbar-header">
+        <button
+          type="button"
+          class="navbar-toggle"
+          data-toggle="collapse"
+          data-target="#myNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#myPage" aria-label="Mindfulness Kids Club"></a>
+      </div>
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#myPage">HOME</a></li>
+          <li><a href="#About">ABOUT</a></li>
+          <li><a href="#Lessons">LESSONS</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              CONTACT <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" aria-label="Search site">
+              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  </nav>
+
+  <!-- Carousel -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" role="region" aria-label="Mindfulness Kids Club activities carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
-    <!-- Wrapper for slides -->
+
+    <!-- Slides -->
     <div class="carousel-inner" role="listbox">
-      <div class="item active">
+      <div class="item active" role="option" aria-label="Balloon Breathing">
         <img src="assets/images/2unnamed.jpg" alt="2 unnamed" class="img-responsive">
         <div class="carousel-caption">
           <h3>Balloon Breathing</h3>
-          <p>This activity involves lying down and imagining a balloon in the tummy. As the child breathes in, the balloon inflates, and as they breathe out, it deflates. This helps children focus on their breath and relax.</p>
-        </div>      
+          <p>
+            This activity involves lying down and imagining a balloon in the tummy. As the child breathes in, the balloon inflates, and as they breathe out, it deflates. This helps children focus on their breath and relax.
+          </p>
+        </div>
       </div>
-      <div class="item">
+      <div class="item" role="option" aria-label="Rainbow Walk">
         <img src="assets/images/kids-medit2.jpg" alt="kids meditating" class="img-responsive">
         <div class="carousel-caption">
           <h3>Rainbow Walk</h3>
-          <p>Go on a walk and find objects of different colors to engage all senses</p>
-        </div>      
+          <p>Go on a walk and find objects of different colors to engage all senses.</p>
+        </div>
       </div>
-    
-      <div class="item">
+      <div class="item" role="option" aria-label="The Spider-Man Meditation">
         <img src="assets/images/kidsmedit.jpg" alt="kids meditating" class="img-responsive">
         <div class="carousel-caption">
           <h3>The Spider-Man Meditation</h3>
-          <p>Engage all senses by asking kids to activate their "spidey senses" and notice what they can hear, smell, and feel</p>
-        </div>      
+          <p>Engage all senses by asking kids to activate their "spidey senses" and notice what they can hear, smell, and feel.</p>
+        </div>
       </div>
     </div>
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" aria-label="Previous slide">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" aria-label="Next slide">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-</div>
-<!-- Container (The Band Section) -->
-<div id="About" class="container text-center">
-  <h3>Mindfulness Kids Club</h3>
-  <p><em>We love mindfulness!</em></p>
-  <p>We have created a fictional  website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p class="text-center"><strong>Improved Emotional Regulation</strong></p><br>
-      <a href="#demo" data-toggle="collapse">
-        <img src="assets/images/kidshero.jpg" class="img-circle person" alt="kid dressed as a hero">
-      </a>
-      <div id="demo" class="collapse">
-        <p> Mindfulness helps children manage their emotions better, reducing stress and anxiety </p>
-        <p>while enhancing their ability to cope with challenges. </p>
-        <p>This leads to increased emotional resilience and better overall well-being.</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <p class="text-center"><strong>Enhanced Focus and Academic Performance</strong></p><br>
-      <a href="#demo2" data-toggle="collapse">
-        <img src="assets/images/kidshero.jpg" class="img-circle person" alt="kid dressed as a hero">
-      </a>
-      <div id="demo2" class="collapse">
-        <p>Mindfulness practices improve focus and concentration, which are crucial for academic success.  </p>
-        <p>By enhancing cognitive skills such as attention and memory, </p>
-        <p>mindfulness can lead to better academic performance and improved classroom behavior.</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <p class="text-center"><strong>Better Social Skills and Empathy</strong></p><br>
-      <a href="#demo3" data-toggle="collapse">
-        <img src="assets/images/kidshero.jpg" class="img-circle person" alt="kid dressed as a hero">
-      </a>
-      <div id="demo3" class="collapse">
-        <p>Mindfulness encourages children to be more aware of themselves and others,  </p>
-        <p>fostering empathy and compassion. This can lead to improved social interactions and relationships,</p>
-        <p>helping children navigate complex social situations more effectively.</p>
-      </div>
-    </div>
   </div>
-</div>
-<!-- Container (TOUR Section) -->
-<div id="Lessons" class="bg-1">
-  <div class="container">
-    <h3 class="text-center">CLASS DATES</h3>
-    <p class="text-center">Lorem ipsum <br> Remember to book your tickets!</p>
-    <ul class="list-group">
-      <li class="list-group-item">June <span class="label label-danger">Completely booked</span></li>
-      <li class="list-group-item">July <span class="label label-danger">Completely booked</span></li> 
-      <li class="list-group-item">August-September-November <span class="badge">3</span></li> 
+
+  <!-- About Section -->
+  <div id="About" class="container text-center">
+    <h3>Mindfulness Kids Club</h3>
+    <p><em>We love mindfulness!</em></p>
+    <p>
+      We have created a fictional website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <br>
+    <ul class="row list-unstyled">
+      <li class="col-sm-4">
+        <p class="text-center"><strong>Improved Emotional Regulation</strong></p>
+        <br>
+        <a href="#demo" data-toggle="collapse">
+          <img src="assets/images/kidshero.jpg" class="img-circle person" alt="kid dressed as a hero">
+        </a>
+        <div id="demo" class="collapse">
+          <p>Mindfulness helps children manage their emotions better, reducing stress and anxiety while enhancing their ability to cope with challenges.</p>
+          <p>This leads to increased emotional resilience and better overall well-being.</p>
+        </div>
+      </li>
+      <li class="col-sm-4">
+        <p class="text-center"><strong>Enhanced Focus and Academic Performance</strong></p>
+        <br>
+        <a href="#demo2" data-toggle="collapse">
+          <img src="assets/images/kidshero.jpg" class="img-circle person" alt="kid dressed as a hero">
+        </a>
+        <div id="demo2" class="collapse">
+          <p>Mindfulness practices improve focus and concentration, which are crucial for academic success.</p>
+          <p>By enhancing cognitive skills such as attention and memory, mindfulness can lead to better academic performance.</p>
+        </div>
+      </li>
+      <li class="col-sm-4">
+        <p class="text-center"><strong>Better Social Skills and Empathy</strong></p>
+        <br>
+        <a href="#demo3" data-toggle="collapse">
+          <img src="assets/images/kidshero.jpg" class="img-circle person" alt="kid dressed as a hero">
+        </a>
+        <div id="demo3" class="collapse">
+          <p>Mindfulness encourages children to be more aware of themselves and others, fostering empathy and compassion.</p>
+          <p>This can lead to improved social interactions and relationships.</p>
+        </div>
+      </li>
     </ul>
-    
-    <div class="row text-center">
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="assets/images/yogacart.jpg" class="thumb" alt="yoga cartoon" >
-          <p><strong>London</strong></p>
-          <p>Monday 11 August 2025</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Lessons</button>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="assets/images/yogacart.jpg" class="thumb" alt="yoga cartoom">
-          <p><strong>Birmingham</strong></p>
-          <p>Thursday 11 September 2025</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Lessons</button>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="assets/images/yogacart.jpg" alt="yoga cartoon" class="thumb">
-          <p><strong>Bristol</strong></p>
-          <p>Wednesday 12 November 2025</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Lessons</button>
-        </div>
-      </div>
-    </div>
   </div>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">×</button>
-          <h4><span class="glyphicon glyphicon-lock"></span> Lessons</h4>
-        </div>
-        <div class="modal-body">
-          <form role="form" action="index.html">
-            <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, 30£ each lesson</label>
-              <input type="number" class="form-control" id="psw" placeholder="How many?" required>
-            </div>
-            <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
-              <input type="email" class="form-control" id="usrname" placeholder="Enter email" required>
-            </div>
-              <button type="submit" class="btn btn-block">Pay 
-                <span class="glyphicon glyphicon-ok"></span>
+
+  <!-- Lessons Section -->
+  <div id="Lessons" class="bg-1">
+    <div class="container">
+      <h3 class="text-center">CLASS DATES</h3>
+      <p class="text-center">
+        Lorem ipsum<br>Remember to book your tickets!
+      </p>
+      <ul class="list-group">
+        <li class="list-group-item">June <span class="label label-danger">Completely booked</span></li>
+        <li class="list-group-item">July <span class="label label-danger">Completely booked</span></li>
+        <li class="list-group-item">August-September-November <span class="badge">3</span></li>
+      </ul>
+
+      <div class="row text-center">
+        <!-- London Card -->
+        <div class="col-sm-4">
+          <section class="thumbnail" aria-labelledby="lesson-london">
+            <h3 id="lesson-london" class="sr-only">London lesson – Monday 11 August 2025</h3>
+            <img src="assets/images/yogacart.jpg" alt="Cartoon children doing yoga poses on mats" class="thumb">
+            <div class="caption">
+              <strong>London</strong>
+              <p>Monday 11 August 2025</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal" aria-label="Buy lessons for London on Monday 11 August 2025">
+                Buy Lessons
               </button>
-          </form>
+            </div>
+          </section>
         </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-            <span class="glyphicon glyphicon-remove"></span> Cancel
-          </button>
-          <p>Need <a href="#">help?</a></p>
+
+        <!-- Birmingham Card -->
+        <div class="col-sm-4">
+          <section class="thumbnail" aria-labelledby="lesson-birmingham">
+            <h3 id="lesson-birmingham" class="sr-only">Birmingham lesson – Thursday 11 September 2025</h3>
+            <img src="assets/images/yogacart.jpg" alt="Cartoon children stretching in a yoga class" class="thumb">
+            <div class="caption">
+              <strong>Birmingham</strong>
+              <p>Thursday 11 September 2025</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal" aria-label="Buy lessons for Birmingham on Thursday 11 September 2025">
+                Buy Lessons
+              </button>
+            </div>
+          </section>
+        </div>
+
+        <!-- Bristol Card -->
+        <div class="col-sm-4">
+          <section class="thumbnail" aria-labelledby="lesson-bristol">
+            <h3 id="lesson-bristol" class="sr-only">Bristol lesson – Wednesday 12 November 2025</h3>
+            <img src="assets/images/yogacart.jpg" alt="Cartoon children following a yoga instructor" class="thumb">
+            <div class="caption">
+              <strong>Bristol</strong>
+              <p>Wednesday 12 November 2025</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal" aria-label="Buy lessons for Bristol on Wednesday 12 November 2025">
+                Buy Lessons
+              </button>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close modal">
+                <span aria-hidden="true">×</span>
+              </button>
+              <h4><span class="glyphicon glyphicon-lock"></span> Lessons</h4>
+            </div>
+            <div class="modal-body">
+              <form action="thankyou.html">
+                <div class="form-group">
+                  <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, 30£ each lesson</label>
+                  <input type="number" class="form-control" id="psw" placeholder="How many?" required>
+                </div>
+                <div class="form-group">
+                  <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+                  <input type="email" class="form-control" id="usrname" placeholder="Enter email" required>
+                </div>
+                <button type="submit" class="btn btn-block">
+                  Pay <span class="glyphicon glyphicon-ok"></span>
+                </button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger btn-default pull-left" data-dismiss="modal" aria-label="Cancel purchase">
+                <span class="glyphicon glyphicon-remove"></span> Cancel
+              </button>
+              <p>
+                Need <a href="#contact" data-dismiss="modal" aria-label="Go to contact form">help?</a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<!-- Container (Contact Section) -->
-<div id="contact" class="container">
-  <h3 class="text-center">Contact</h3>
-  <p class="text-center"><em>We love our students!</em></p>
-  <div class="row">
-    <div class="col-md-4">
-      <p>Drop us a note.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span>location, UK</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Phone: + 1212121212</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
-    </div>
-    <div class="col-md-8">
-      <div class="row">
-        <form action="index.html">
+
+  <!-- Contact Section -->
+  <div id="contact" class="container">
+    <h3 class="text-center">Contact</h3>
+    <p class="text-center"><em>We love our students!</em></p>
+    <div class="row">
+      <div class="col-md-4">
+        <p>Drop us a note.</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> location, UK</p>
+        <p><span class="glyphicon glyphicon-phone"></span> Phone: + 1212121212</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> Email: mail@mail.com</p>
+      </div>
+      <div class="col-md-8">
+        <form action="thankyou.html">
+          <div class="row">
             <div class="col-sm-6 form-group">
-                <input class="form-control" id="name" name="name" placeholder="Name" aria-label="name" type="text" required>
+              <label for="name" class="sr-only">Your name</label>
+              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
             </div>
             <div class="col-sm-6 form-group">
-                <input class="form-control" id="email" name="email" placeholder="Email" aria-label="email" type="email" required>
+              <label for="email" class="sr-only">Your email</label>
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
             </div>
+          </div>
+          <label for="comments" class="sr-only">Your message</label>
+          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5" required></textarea>
+          <br>
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <button class="btn pull-right" type="submit">Send</button>
             </div>
-                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5" required></textarea>
-            <br>
-            <div class="row">
-                <div class="col-md-12 form-group">
-                <button class="btn pull-right" type="submit">Send</button>
-            </div>
+          </div>
         </form>
       </div>
     </div>
+    <br>
+    <img src="assets/images/Kidmeditatnat.jpg" alt="kid meditating" class="img-responsive">
   </div>
-  <br>
- 
-<!-- Image of location/map -->
-<img src="assets/images/Kidmeditatnat.jpg" alt="kid meditating" class="img-responsive">
-<!-- Footer -->
-<footer class="text-center">
-  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-   
-</footer>
-<script>
-$(document).ready(function(){
-  // Initialize Tooltip
-  $('[data-toggle="tooltip"]').tooltip(); 
-  
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-      // Store hash
-      var hash = this.hash;
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP" aria-label="Back to top">
+      <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+    </a>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+      $("a[href^='#']").on('click', function(event){
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({ scrollTop: $(hash).offset().top }, 900, function(){
+            window.location.hash = hash;
+          });
+        }
       });
-    } // End if
-  });
-})
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    });
+  </script>
 </body>
 </html>
