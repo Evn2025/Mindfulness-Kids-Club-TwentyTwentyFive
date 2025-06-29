@@ -90,6 +90,22 @@ Mindfulness Kids Club is a fictional site designed for parents, teachers and car
 
 ## Design
 
+<img width="935" alt="Home" src="https://github.com/user-attachments/assets/0687e33d-261d-4018-8605-bd98d59df6fd" />
+
+<img width="847" alt="About 2" src="https://github.com/user-attachments/assets/128a56f0-5280-4f10-b61b-11d45087a1cf" />
+
+<img width="620" alt="Benefits 3" src="https://github.com/user-attachments/assets/1e433d22-3314-4c66-bd42-f5bf22e36675" />
+
+<img width="730" alt="Class dates 4" src="https://github.com/user-attachments/assets/4b1a26bb-edc5-41c3-94b0-72bfa70abb56" />
+
+
+<img width="595" alt="Lessons 5" src="https://github.com/user-attachments/assets/aa99e931-5dbe-49c9-bf02-addc9d7b39b2" />
+
+<img width="635" alt="Contact 6" src="https://github.com/user-attachments/assets/68fcbc72-d30f-4ccf-bbc9-4ca291f12c17" />
+
+
+
+
 ### Wireframes
 
 - Mobile, tablet and desktop wireframes drafted in Balsamiq and PDF format  
@@ -145,13 +161,22 @@ Mindfulness Kids Club is a fictional site designed for parents, teachers and car
 
 ### HTML & CSS Validation
 
-- Passed W3C HTML5 validator with zero errors  
-- CSS validated via W3C Jigsaw—no warnings  
+- Passed W3C HTML5 validator with zero errors
+  
+
+
+- CSS validated via W3C Jigsaw—no warnings
+
+   
 
 ### Accessibility
 
-- **Lighthouse**: Accessibility score ≥ 90  
-- **axe DevTools**: No critical violations; all form fields and landmarks announce correctly  
+- **Lighthouse**: Accessibility score ≥ 90
+- 
+![Lighthouse report](https://github.com/user-attachments/assets/26ab9a23-2f75-4d24-bdb4-fb896bfc7c0f)
+
+
+
 - **Manual Testing**: Full keyboard navigation, focus styles visible  
 
 ### Performance & Compatibility
