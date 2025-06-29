@@ -36,7 +36,7 @@ A fully responsive, accessible one-page landing site introducing children (ages 
    - [Local Development](#local-development)  
    - [Fork & Clone](#fork--clone)  
 9. [Credits & Acknowledgments](#credits--acknowledgments)  
-10. [License](#license)  
+
 
 ---
 
