@@ -162,10 +162,16 @@ Mindfulness Kids Club is a fictional site designed for parents, teachers and car
 ### HTML & CSS Validation
 
 - Passed W3C HTML5 validator with zero errors
-  
+
+
+  ![Html Validator](https://github.com/user-attachments/assets/7fd2a14d-8e94-472c-ade1-cc35de551cf1)
+
 
 
 - CSS validated via W3C Jigsaw—no warnings
+
+
+<img width="337" alt="W3C css" src="https://github.com/user-attachments/assets/6a97dbe3-4d9c-4b37-a07e-211768e61952" />
 
    
 
